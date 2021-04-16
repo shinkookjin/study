@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+*{margin: 0;padding: 0;}
+body{font-family: "맑은 고딕", sans-serif;}
+a{}
+li{}
+button{border: 0;background-color: transparent; cursor: pointer;}
+.hide{display: none;}
+
+#wrap{
+    width: 650px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px #ccc;
+    padding: 16px 20px;
+    overflow: auto;
+}
+#wrap h1{
+    color: #e93b34;
+    font-size: 22px;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed #989898;
+}
+#wrap table{
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+}
+#wrap table tr{
+    
+}
+#wrap table th{
+    border-bottom: 1px solid #9b9b9b;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+#wrap table th:nth-child(1){width: 270px;}
+#wrap table th:nth-child(2){width:  70px;}
+#wrap table th:nth-child(3){}
+
+#wrap table td{
+    border-bottom: 1px solid #9b9b9b;
+    padding: 10px 0;
+    color: #d55317;
+    text-align: center;
+}
+#wrap table td:first-child{
+    text-align: left;
+}
+
+#wrap table td>img{vertical-align: middle;}
+#wrap table td>div{float: right; width: 15px; padding-right: 20px;}
+.cnt{width: 24px; float: left; margin-top: 4px; }
+.btnUp{float: left;}
+.btnDown{float: left;}
+.btnDel{}
+.btnWish{}
+
+.btns{float: left; padding-top:15px; }
+.result{float: right; padding-top:15px; font-weight: bold; }
+.result .totPrice{color: #d55317;}
+
+
